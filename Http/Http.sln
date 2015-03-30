@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "http_parser", "deps\http_parser\http_parser.vcxproj", "{3D75A4D7-C52C-EA52-8959-BDF659A0ED66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deps", "deps", "{AB3D0B5C-82B7-4448-B133-EF252856A479}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Http", "Http.vcxproj", "{7A894263-38E0-4299-8D11-2447DD3D611C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libuv", "deps\libuv-v1.4.2\libuv.vcxproj", "{33066374-88CB-CB8D-15DA-61032886329A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D75A4D7-C52C-EA52-8959-BDF659A0ED66}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D75A4D7-C52C-EA52-8959-BDF659A0ED66}.Debug|Win32.Build.0 = Debug|Win32
+		{3D75A4D7-C52C-EA52-8959-BDF659A0ED66}.Release|Win32.ActiveCfg = Release|Win32
+		{3D75A4D7-C52C-EA52-8959-BDF659A0ED66}.Release|Win32.Build.0 = Release|Win32
+		{7A894263-38E0-4299-8D11-2447DD3D611C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7A894263-38E0-4299-8D11-2447DD3D611C}.Debug|Win32.Build.0 = Debug|Win32
+		{7A894263-38E0-4299-8D11-2447DD3D611C}.Release|Win32.ActiveCfg = Release|Win32
+		{7A894263-38E0-4299-8D11-2447DD3D611C}.Release|Win32.Build.0 = Release|Win32
+		{33066374-88CB-CB8D-15DA-61032886329A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{33066374-88CB-CB8D-15DA-61032886329A}.Debug|Win32.Build.0 = Debug|Win32
+		{33066374-88CB-CB8D-15DA-61032886329A}.Release|Win32.ActiveCfg = Release|Win32
+		{33066374-88CB-CB8D-15DA-61032886329A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D75A4D7-C52C-EA52-8959-BDF659A0ED66} = {AB3D0B5C-82B7-4448-B133-EF252856A479}
+		{33066374-88CB-CB8D-15DA-61032886329A} = {AB3D0B5C-82B7-4448-B133-EF252856A479}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
